@@ -26,7 +26,7 @@ h1 {
 h2 {
   font-family: Georgia;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 10px;
 }
 
 h3 {
@@ -74,11 +74,6 @@ ol, ul {
   width: 50%;
 }
 
-.width {
-  margin-left: 500px;
-  margin-right: 500px;
-}
-
 a:link {color: #4169E1	} 
 a:visited {color: red}
 a:hover {color: #4682B4}
@@ -86,8 +81,17 @@ a:active {color: white}
 
 img {
   margin-top: 50px;
-  margin-bottom: -50px;
+  margin-bottom: 50px;
 }
 
+.box {
+  width: 600px;
+  background: #D2B48C;
+  padding: 20px;
+  border: 10px solid #00BFFF;
+  margin: auto;
 
+  .border-box {
+  box-sizing: border-box;
+}
 
