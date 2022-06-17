@@ -84,4 +84,10 @@ a:visited {color: red}
 a:hover {color: #4682B4}
 a:active {color: white}
 
+img {
+  margin-top: 50px;
+  margin-bottom: -50px;
+}
+
+
 
